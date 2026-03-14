@@ -1,0 +1,11 @@
+venv
+pycache
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+.idea
+.vscode
+notebooks
+data
