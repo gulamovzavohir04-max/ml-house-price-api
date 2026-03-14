@@ -43,18 +43,16 @@ Example request:
   "Latitude": 37.88,
   "Longitude": -122.23
 }
+
 Example response:
 JSON
-Копировать код
 {
   "predicted_price": 4.151943055154298
 }
-Run locally
+## Run locally
 uvicorn app.main:app --reload
-Swagger docs:
-http://127.0.0.1:8000/docs
-Run with Docker
+## Run with Docker
 docker build -t ml-house-price-api .
 docker run -p 8000:8000 ml-house-price-api
-Author
+## Author
 Javohir Gulyamov
