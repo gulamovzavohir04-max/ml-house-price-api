@@ -9,7 +9,7 @@ Machine Learning API for predicting California house prices using FastAPI and Sc
 - Docker support
 ## API Documentation
 Swagger UI:
-http://127.0.0.1:8000/docs
+https://ml-house-price-api-production.up.railway.app/docs
 ## Tech Stack
 - Python
 - Pandas
